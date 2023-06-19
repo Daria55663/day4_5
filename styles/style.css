@@ -1,0 +1,1366 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(to right, white, #e6ebf0);
+}
+
+.section_header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section_header .header {
+    display: flex;
+    justify-content: center;
+}
+
+.section_header .header .header_menu {
+    display: flex;
+    flex-direction: row;
+  
+    width: 1360px;
+    margin-top: 20px;
+    align-items: center;
+}
+
+
+
+.section_header .header .header_menu .category {
+    margin-left: 430px;
+    margin-right: 210px;
+}
+
+.section_header .header .header_menu .icons {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    
+}
+.section_header .header .header_menu .category a.a1:hover{
+    transition: .5s;
+    color: #004ad4;
+  
+}
+.section_header .header .header_menu .category a.a2:hover{
+    transition: .5s;
+    color: #004ad4;
+  
+}
+.section_header .header .header_menu .category a.a3:hover{
+    transition: .5s;
+    color: #004ad4;
+  
+}
+.section_header .header .header_menu .category a.a4:hover{
+    transition: .5s;
+    color: #004ad4;
+  
+}
+.section_header .header .header_menu .category a.a5:hover{
+    transition: .5s;
+    color: #004ad4;
+  
+}
+.section_header .header .header_menu .icons a:nth-child(1){
+    width: 50px;
+    margin-right: 20px;
+
+}
+
+.section_header .header .header_menu .icons a:nth-child(2){
+    width: 50px;
+    margin-right: 20px;
+}
+.section_header .header .header_menu a.a1 {
+    margin-right: 20px;
+}
+
+.section_header .header .header_menu a.a2 {
+    margin-right: 20px;
+}
+
+.section_header .header .header_menu a.a3 {
+    margin-right: 20px;
+}
+
+.section_header .header .header_menu a.a4 {
+    margin-right: 20px;
+}
+
+.section_header .header .header_menu a {
+    width: 100%;
+    color: #150a4e;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 30px;
+    font-family: 'Manrope';
+}
+
+.fitnes {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.fitnes .fit {
+    width: 1360px;
+}
+
+.fitnes .fit .blocks {
+    display: flex;
+    flex-direction: row;
+}
+
+.fitnes .fit .blocks .block2 {
+    margin-left: 70px;
+}
+
+.fitnes .fit .blocks .block1 {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+}
+
+.fitnes .fit .blocks .block1 p.fit {
+    width: 100%;
+    color: #111f30;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 60px;
+    font-family: 'Manrope';
+    margin-top: 50px;
+}
+
+.fitnes .fit .blocks .block1 p.decsr {
+    width: 100%;
+    color: #111f30;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    font-family: 'Manrope';
+    margin-top: 30px;
+}
+
+.fitnes .fit .blocks .block1 .but {
+    width: 250px;
+    height: 58px;
+    background-color: #1c73dd;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    transition: .2s;
+    outline: 1px solid #3585fd;
+    outline-offset: 4px;
+    box-shadow: #b5becb 3px 6px 15px 0;
+    border: none;
+}
+.fitnes .fit .blocks .block1 .but:hover{
+    transition: .5s;
+  
+    box-shadow: 6px 6px 30px 6px rgba(0, 0, 0, 0.25);
+    background-color: #84c0e7;
+}
+.fitnes .fit .blocks .block1 .but a {
+
+    color: #ffffff;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 15px;
+    line-height: 30px;
+    font-family: 'Manrope';
+
+}
+
+.curs {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.curs .choose {
+    width: 1360px;
+    display: flex;
+    justify-content: center;
+}
+
+.curs .choose p {
+    color: #0f0e49;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 30px;
+    font-family: 'Manrope';
+}
+
+.curces {
+    display: flex;
+    justify-content: center;
+}
+
+.curces .curs {
+    width: 1360px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.curces .curs .curse1 {
+    background-color: #ffffff;
+    width: 360px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+}
+.curces .curs .curse1:hover{
+    transition: .5s;
+   
+    box-shadow: 6px 6px 30px 6px rgba(55, 158, 255, 0.25);
+   
+}
+.curces .curs .curse2:hover{
+    transition: .5s;
+   
+    box-shadow: 6px 6px 30px 6px rgba(55, 192, 255, 0.25);
+   
+}
+.curces .curs .curse3:hover{
+    transition: .5s;
+   
+    box-shadow: 6px 6px 30px 6px rgba(55, 192, 255, 0.25);
+   
+}
+.curces .curs .curse1 a {
+    color: #111f30;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 22px;
+    line-height: 30px;
+    font-family: 'Manrope';
+    margin-top: 10px;
+}
+.curces .curs .curse1 a:hover{
+    transition: .5s;
+    color: #4d8bff;
+}
+.curces .curs .curse2 a:hover{
+    transition: .5s;
+    color: #4d8bff;
+}
+.curces .curs .curse3 a:hover{
+    transition: .5s;
+    color: #4d8bff;
+}
+.curces .curs .curse2 {
+    background-color: #ffffff;
+    width: 360px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.curces .curs .curse2 a {
+    color: #111f30;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 22px;
+    line-height: 30px;
+    font-family: 'Manrope';
+    margin-top: 10px;
+}
+
+.curces .curs .curse3 {
+    background-color: #ffffff;
+    width: 360px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.curces .curs .curse3 a {
+    color: #111f30;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 22px;
+    line-height: 30px;
+    font-family: 'Manrope';
+    margin-top: 10px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.button .but {
+    width: 250px;
+    height: 58px;
+    background-color: #1c73dd;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .2s;
+    outline: 1px solid #3585fd;
+    outline-offset: 4px;
+    box-shadow: #b5becb 3px 6px 15px 0;
+    border: none;
+
+}
+.button .but:hover{
+
+
+transition: .5s;
+  
+    box-shadow: 6px 6px 30px 6px rgba(0, 0, 0, 0.25);
+    background-color: #84c0e7;
+}
+.button .but a {
+    color: #ffffff;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 15px;
+    line-height: 30px;
+    font-family: 'Manrope';
+}
+
+.tryfree {
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+}
+
+.tryfree .try {
+    background-image: url('../img/5.jpg');
+    width: 1366px;
+    height: 480px;
+    background-size: cover;
+    border-radius: 22px;
+}
+
+.tryfree .try .textry h2 {
+    color: #0f0e49;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 30px;
+    font-family: 'Manrope';
+    margin-top: 170px;
+    margin-left: 160px;
+}
+
+.tryfree .try .textry p {
+    color: #363636;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+    font-family: 'Manrope';
+    margin-left: 160px;
+    margin-top: 30px;
+}
+
+.tryfree .try .textry {
+    display: flex;
+    flex-direction: column;
+}
+
+.tryfree .try .textry .but {
+    width: 250px;
+    height: 58px;
+    background-color: #1c73dd;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 160px;
+    margin-top: 40px;
+    transition: .2s;
+    outline: 1px solid #3585fd;
+    outline-offset: 4px;
+    box-shadow: #b5becb 3px 6px 15px 0;
+    border: none;
+}
+.tryfree .try .textry .but:hover{
+
+
+transition: .5s;
+  
+    box-shadow: 6px 6px 30px 6px rgba(0, 0, 0, 0.25);
+    background-color: #84c0e7;
+}
+.tryfree .try .textry .but a {
+    color: #ffffff;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 15px;
+    line-height: 30px;
+    font-family: 'Manrope';
+
+}
+
+.rastyzhka {
+    display: flex;
+    justify-content: center;
+    margin-top: 140px;
+}
+
+.rastyzhka .rast {
+    width: 1360px;
+    display: flex;
+    flex-direction: row;
+}
+
+.rastyzhka .rast .rastimg img {
+    border-radius: 20px;
+}
+
+.rastyzhka .rast .rasttext {
+    margin-left: 80px;
+}
+
+.rastyzhka .rast .rasttext .zagolovok h3 {
+    color: #130d4e;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 30px;
+    font-family: 'Manrope';
+}
+
+.rastyzhka .rast .rasttext .zagolovok h2 {
+    color: #130d4e;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 42px;
+    line-height: 30px;
+    font-family: 'Manrope';
+    margin-bottom: 30px;
+}
+
+.rastyzhka .rast .rasttext .zagolovok p {
+    color: #575757;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 30px;
+    font-family: 'Manrope';
+    margin-bottom: 30px;
+}
+
+.rastyzhka .rast .reiting {
+    display: flex;
+    flex-direction: row;
+}
+
+.rastyzhka .rast .reiting .reit1 {
+    width: 280px;
+    height: 60px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.rastyzhka .rast .reiting .reit1 .highreit p {
+    color: #100f41;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 17px;
+    line-height: 30px;
+    font-family: 'Manrope';
+    margin-left: 10px;
+}
+
+.rastyzhka .rast .reiting .reit1 .star {
+    display: flex;
+    flex-direction: row;
+}
+
+.rastyzhka .rast .reiting .reit1 .star img {
+    margin-left: 27px;
+}
+
+.rastyzhka .rast .reiting .reit1 .star p {
+    color: #100f41;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 17px;
+    line-height: 30px;
+    font-family: 'Manrope';
+    margin-left: 6px;
+}
+
+.rastyzhka .rast .reiting .reit2 {
+    width: 280px;
+    height: 60px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    margin-left: 80px;
+    cursor: pointer;
+}
+
+.rastyzhka .rast .reiting .reit2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.rastyzhka .rast .price {
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+
+}
+
+.rastyzhka .rast .price .chena {
+    display: flex;
+    align-items: center;
+    margin-right: 210px;
+}
+
+.rastyzhka .rast .price .chena p {
+    color: #100f41;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 42px;
+    line-height: 30px;
+    font-family: 'Manrope';
+    margin-left: 6px;
+}
+
+.rastyzhka .rast .price .but {
+    width: 280px;
+    height: 58px;
+    background-color: #1c73dd;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .2s;
+    outline: 1px solid #3585fd;
+    outline-offset: 4px;
+    box-shadow: #b5becb 3px 6px 15px 0;
+    border: none;
+
+}
+.rastyzhka .rast .price .but:hover{
+    transition: .5s;
+        box-shadow: 6px 6px 30px 6px rgba(0, 0, 0, 0.25);
+        background-color: #84c0e7;
+}
+.rastyzhka .rast .price .but a {
+    color: #ffffff;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 15px;
+    line-height: 30px;
+    font-family: 'Manrope';
+}
+
+.rastyzhka .rast .reiting .reit2 .ned8 {
+    display: flex;
+    flex-direction: row;
+}
+
+.rastyzhka .rast .reiting .reit2 .ned8 img {
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+.rastyzhka .rast .reiting .reit2 .ned8 p {
+    color: #100f41;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 17px;
+    line-height: 30px;
+    font-family: 'Manrope';
+
+}
+
+.rastyzhka .rast .reiting .reit2 .tren24 {
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+}
+.rastyzhka .rast .reiting .reit1:hover{
+    transition: .5s;
+    color: #ac74a0;
+    box-shadow: 6px 6px 30px 6px rgba(22, 35, 219, 0.25);
+ 
+}
+.rastyzhka .rast .reiting .reit2:hover{
+    transition: .5s;
+    color: #ac74a0;
+    box-shadow: 6px 6px 30px 6px rgba(22, 35, 219, 0.25);
+ 
+}
+.rastyzhka .rast .reiting .reit2 .tren24 p {
+    color: #100f41;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 17px;
+    line-height: 30px;
+    font-family: 'Manrope';
+}
+
+.rastyzhka .rast .reiting .reit2 .tren24 img {
+    margin-right: 5px;
+}
+
+.treners {
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+}
+
+.treners .tren {
+    width: 1360px;
+}
+
+.treners .tren .tr {
+    display: flex;
+    flex-direction: row;
+}
+
+.treners .tren .tr .trener {
+    width: 160px;
+    height: 48px;
+    background-color: #1c73dd;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 40px;
+    transition: .2s;
+    outline: 1px solid #3585fd;
+    outline-offset: 4px;
+    box-shadow: #b5becb 3px 6px 15px 0;
+    border: none;
+}
+.treners .tren .tr .trener:hover{
+    transition: 0.5s;
+    box-shadow: 6px 6px 30px 6px rgba(28, 43, 255, 0.25);
+}
+.treners .tren .tr .oborud:hover{
+    transition: 0.5s;
+    box-shadow: 6px 6px 30px 6px rgba(28, 43, 255, 0.25);
+}
+.treners .tren .tr .otzivi:hover{
+    transition: 0.5s;
+    box-shadow: 6px 6px 30px 6px rgba(28, 43, 255, 0.25);
+}
+.treners .tren .tr .trener a {
+    color: #ffffff;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 30px;
+    font-family: 'Manrope';
+}
+
+.treners .tren .tr .oborud {
+    width: 160px;
+    height: 48px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 40px;
+}
+
+.treners .tren .tr .oborud a {
+    color: #0b1144;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 30px;
+    font-family: 'Manrope';
+}
+
+.treners .tren .tr .otzivi {
+    width: 160px;
+    height: 48px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.treners .tren .tr .otzivi a {
+    color: #0b1144;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 30px;
+    font-family: 'Manrope';
+}
+
+.zanyatia {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 130px;
+}
+
+.zanyatia .zan {
+    width: 1360px;
+}
+
+.zanyatia .zan .blocks {
+    display: flex;
+    flex-direction: row;
+}
+
+.zanyatia .zan .blocks .zantext {
+    margin-right: 80px;
+}
+
+.zanyatia .zan .blocks .zantext p {
+    color: #363636;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 23px;
+    font-family: 'Manrope';
+}
+
+.zanyatia .zan .blocks .imgstren {
+    display: flex;
+    flex-direction: row;
+}
+
+.zanyatia .zan .blocks .imgstren .tren1 {
+    width: 290px;
+    height: 330px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 80px;
+    cursor: pointer;
+}
+.zanyatia .zan .blocks .imgstren .tren1:hover{
+    transition: .5s;
+
+    box-shadow: 6px 6px 30px 6px rgba(17, 148, 255, 0.25);
+
+}
+.zanyatia .zan .blocks .imgstren .tren2:hover{
+    transition: .5s;
+
+    box-shadow: 6px 6px 30px 6px rgba(17, 148, 255, 0.25);
+
+}
+.zanyatia .zan .blocks .imgstren .tren3:hover{
+    transition: .5s;
+
+    box-shadow: 6px 6px 30px 6px rgba(17, 148, 255, 0.25);
+
+}
+.zanyatia .zan .blocks .imgstren .tren1 h2 {
+    color: #100f41;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 30px;
+    font-family: 'Manrope';
+
+}
+
+.zanyatia .zan .blocks .imgstren .tren1 p {
+    color: #464646;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    font-family: 'Manrope';
+}
+
+.zanyatia .zan .blocks .imgstren .tren2 p {
+    color: #464646;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    font-family: 'Manrope';
+}
+
+.zanyatia .zan .blocks .imgstren .tren3 p {
+    color: #464646;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    font-family: 'Manrope';
+}
+
+.zanyatia .zan .blocks .imgstren .tren2 h2 {
+    color: #100f41;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 30px;
+    font-family: 'Manrope';
+    margin-top: 10px;
+}
+
+.zanyatia .zan .blocks .imgstren .tren3 h2 {
+    color: #100f41;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 30px;
+    font-family: 'Manrope';
+}
+
+.zanyatia .zan .blocks .imgstren .tren2 {
+    width: 290px;
+    height: 330px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 80px;
+    cursor: pointer;
+}
+
+.zanyatia .zan .blocks .imgstren .tren3 {
+    width: 290px;
+    height: 330px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.fitline {
+    display: flex;
+    justify-content: center;
+}
+
+.fitline .blockfitline {
+    width: 1366px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    height: 600px;
+
+}
+
+.fitline .blockfitline .blocks {
+    display: flex;
+    flex-direction: row;
+    padding: 100px;
+}
+
+.fitline .blockfitline .blocks .fittext {
+    margin-right: 100px;
+}
+
+.fitline .blockfitline .blocks .fittext h2 {
+    color: #100f41;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 42px;
+    line-height: 30px;
+    font-family: 'Manrope';
+    margin-bottom: 40px;
+    margin-top: 30px;
+}
+
+.fitline .blockfitline .blocks .fittext p {
+    color: #464646;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    font-family: 'Manrope';
+}
+
+.fitline .blockfitline .blocks .knopka {
+    width: 250px;
+    height: 58px;
+    background-color: #1c73dd;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    transition: .2s;
+    outline: 1px solid #3585fd;
+    outline-offset: 4px;
+    box-shadow: #b5becb 3px 6px 15px 0;
+    border: none;
+}
+.fitline .blockfitline .blocks .knopka:hover{
+    transition: .5s;
+    box-shadow: 6px 6px 30px 6px rgba(0, 0, 0, 0.25);
+    background-color: #84c0e7;
+}
+
+.fitline .blockfitline .blocks .knopka a {
+    color: #ffffff;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 15px;
+    line-height: 30px;
+    font-family: 'Manrope';
+}
+
+.howitworks {
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+}
+
+.howitworks .works {
+    width: 1366px;
+    justify-content: center;
+    display: flex;
+}
+
+.howitworks .works h2 {
+    color: #100f41;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 42px;
+    line-height: 30px;
+    font-family: 'Manrope';
+    margin-bottom: 100px;
+
+}
+
+.choouseprogr {
+    display: flex;
+    justify-content: center;
+}
+
+.choouseprogr .choose {
+    width: 1366px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.choouseprogr .choose .cha2 .bt1 {
+    width: 60px;
+    height: 30px;
+    background-color: #1c73dd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 7px;
+    margin-bottom: 20px;
+
+}
+
+.choouseprogr .choose .cha2 .bt1 p {
+    color: #ffffff;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 30px;
+    font-family: 'Manrope';
+
+}
+
+.choouseprogr .choose .cha2 h2 {
+    color: #100f41;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 30px;
+    font-family: 'Manrope';
+    margin-bottom: 10px;
+}
+
+.choouseprogr .choose .cha2 p {
+    color: #464646;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    font-family: 'Manrope';
+}
+
+.gradient {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 60px;
+}
+
+.gradient .grad {
+    width: 1366px;
+    background-image: linear-gradient(to right, #e6ebf0, rgb(250, 250, 250));
+    border-radius: 20px;
+}
+
+.gradient .grad .text {
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gradient .grad .text h2 {
+    color: #100f41;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 42px;
+    line-height: 30px;
+    font-family: 'Manrope';
+    margin-bottom: 40px;
+}
+
+.gradient .grad .text p {
+    color: #464646;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    font-family: 'Manrope';
+    text-align: center;
+}
+
+.gradient .grad .knopki {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.gradient .grad .knopki .knopkii {
+    width: 580px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.gradient .grad .knopki .knopka2 input {
+    height: 54px;
+    border-radius: 6px;
+    background: none;
+    border: 1px solid #d8dce0;
+    outline: none;
+    padding: 0 14px;
+    font-family: 'ManropeR';
+    font-size: 16px;
+    width: 270px;
+}
+
+.gradient .grad .email {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.gradient .grad .em {
+    width: 580px;
+}
+
+.gradient .grad .knopka3 input {
+    height: 54px;
+    border-radius: 6px;
+    background: none;
+    border: 1px solid #d8dce0;
+    outline: none;
+    padding: 0 14px;
+    font-family: 'ManropeR';
+    font-size: 16px;
+    width: 580px;
+}
+
+.gradient .grad .knopki .knopka1 input {
+    height: 54px;
+    width: 270px;
+    border-radius: 6px;
+    background: none;
+    border: 1px solid #d8dce0;
+    outline: none;
+    padding: 0 14px;
+    font-family: 'ManropeR';
+    font-size: 16px;
+
+}
+
+.gradient .grad .knopki .knopka2 p {
+    color: #464646;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    font-family: 'Manrope';
+}
+
+.gradient .grad .knopki .knopka1 p {
+    color: #464646;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    font-family: 'Manrope';
+}
+
+.gradient .grad .knopka3 p {
+    color: #464646;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    font-family: 'Manrope';
+}
+
+.gradient .grad .em .purpose {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.gradient .grad .em .purpose p {
+    color: #464646;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    font-family: 'Manrope';
+}
+
+.gradient .grad .em .zchel {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+}
+
+.gradient .grad .em .zchel .zchel1 {
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+}
+.gradient .grad .em .zchel .zchel3{
+    display: flex;
+    align-items: center;
+}
+.gradient .grad .em .zchel .zchel1 label {
+    color: #000000;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 15px;
+    font-family: 'Manrope';
+    margin-left: 6px;
+    cursor: pointer;
+}
+
+.gradient .grad .em .zchel .zchel1 input {
+    width: 19px;
+    height: 19px;
+    cursor: pointer;
+}
+
+.gradient .grad .em .zchel .zhel2 {
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.gradient .grad .em .zchel .zhel2 input {
+    width: 19px;
+    height: 19px;
+    cursor: pointer;
+}
+
+.gradient .grad .em .zchel .zhel2 label {
+    color: #000000;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    font-family: 'Manrope';
+    margin-left: 6px;
+    cursor: pointer;
+}
+
+.gradient .grad .em .zchel .zchel3 input {
+    width: 19px;
+    height: 19px;
+    cursor: pointer;
+   
+}
+
+.gradient .grad .em .zchel .zchel3 label {
+    color: #000000;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    font-family: 'Manrope';
+    margin-left: 6px;
+    cursor: pointer;
+}
+
+.gradient .grad .em .obrabotka input {
+    width: 19px;
+    height: 19px;
+    cursor: pointer;
+
+}
+.gradient .grad .em .obrabotka label {
+    color: #464646;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    font-family: 'Manrope';
+    margin-left: 6px;
+    cursor: pointer;
+}
+.gradient .grad .em .obrabotka{
+
+
+display: flex;
+align-items: center;
+}
+.gradient .grad .em .continue {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 110px;
+}
+
+.gradient .grad .em .continue .cont {
+    width: 250px;
+    height: 58px;
+    background-color: #1c73dd;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .2s;
+    outline: 1px solid #3585fd;
+    outline-offset: 4px;
+    box-shadow: #b5becb 3px 6px 15px 0;
+    border: none;
+}
+.gradient .grad .em .continue .cont:hover{
+    transition: .5s;
+    box-shadow: 6px 6px 30px 6px rgba(0, 0, 0, 0.25);
+    background-color: #84c0e7;
+}
+.gradient .grad .em .continue .cont a {
+    color: #ffffff;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 15px;
+    line-height: 30px;
+    font-family: 'Manrope';
+}
+.foot{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.foot .foo{
+    width: 1366px;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+.foot .foo .iconns{
+    display: flex;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+}
+.foot .foo .iconns .icon{
+    width: 60px;
+}
+.foot .foo p{
+    font-family: 'Manrope';
+    font-size: 12px;
+    font-weight: 600;
+    color: #07172e;
+}
+.foot .foo a{
+    font-family: 'Manrope';
+    font-size: 12px;
+    font-weight: 600;
+    color: #07172e;
+    text-decoration: none;
+    
+}
